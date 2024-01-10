@@ -2,6 +2,6 @@
 
 # Added by cargo
 
-/target
 node_modules/
 .DS_Store
+target/

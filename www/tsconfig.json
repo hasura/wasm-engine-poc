@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "./public/",
+      "noImplicitAny": true,
+      "module": "es6",
+      "target": "es5",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "baseUrl": ".", // add this if not already present
+      "paths": { // add this if not already present
+        "wasm_engine": ["../pkg"]
+      }
+    }
+  }
